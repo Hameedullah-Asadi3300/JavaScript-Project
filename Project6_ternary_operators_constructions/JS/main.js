@@ -63,7 +63,7 @@ function Child(first, last, age, hair) {
     this.hair = hair;
 }
 
-const mySon = new Child("Hisham", "Asadi", 4, "brown")
+const mySon = new Child("Hisham jan", "Asadi", 4, "brown")
 
 document.getElementById("king").innerHTML =
     "My son, " + mySon.firstName + " " + mySon.lastName + " is " + mySon.age + " years old boy " + ".";
