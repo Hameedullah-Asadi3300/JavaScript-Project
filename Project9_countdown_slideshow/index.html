@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="CSS/main.css">
+</head>
+
+<body>
+
+<!--Slideshow Container-->
+<div class=".slideshow-container">
+
+
+            <!--Full-width imags with number and caption text-->
+        <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="images/image_1.png" style="width:100%">
+                <div class="text">Caption one</div>
+        </div>
+
+
+
+        <div clas="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="images/image_2.png" style="width:100%">
+                <div class="text">Caption Two</div>
+            </div>
+
+
+        <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="images/image_3.png" style="width:100%">
+                <div class="text">Caption Three</div>
+        </div>
+
+
+    <!--NEXT AND PREVIOUS BUTTON-->
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10094;</a>
+</div>
+<br>
+
+<!--THE DOTS/CIRCLE-->
+<div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+        <p>How many seconds would you like to set your alarm for?</p>
+        <input id="seconds" value="" />
+        <button onclick="countdown()">Click here!</button>
+        <p id="timer"></p>
+
+
+
+
+
+
+    <script src="JS/main.js"></script>
+</body>
+</html>
